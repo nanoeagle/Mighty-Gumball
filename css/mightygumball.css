@@ -1,0 +1,32 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+div#sales {
+	background-color: lightseagreen;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	border: 1px solid lightseagreen;
+}
+div.salesDataItem {
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #434343;
+	padding: 10px;
+}
+div.salesDataItem:nth-child(even) {
+	background-color: #fafafa;
+}
+div.salesDataItem:first-child {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+div.salesDataItem:last-child {
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
