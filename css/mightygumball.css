@@ -2,7 +2,7 @@ body {
 	margin-left: 20%;
 	margin-right: 20%;
 }
-div#sales {
+div#salesViewport {
 	background-color: lightseagreen;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
